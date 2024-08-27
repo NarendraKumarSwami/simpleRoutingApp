@@ -8,9 +8,9 @@ function Content() {
 
     return (
         <>
-            <Dashboard>
-                <div>This is content page</div>
-            </Dashboard>
+
+            <div>This is content page</div>
+
         </>
     )
 }

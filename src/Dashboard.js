@@ -1,9 +1,10 @@
 import { Children } from "react";
 import Header from "./shared/Header";
+import { Outlet } from "react-router-dom";
 
 
 
-const Dashboard = ({ children }) => {
+const Dashboard = () => {
 
     // logic for authentication
 
@@ -12,9 +13,7 @@ const Dashboard = ({ children }) => {
         <>
             <Header></Header>
             <h1>This is Dashboard</h1>
-            <div>
-                {children}
-            </div>
+            <Outlet />
         </>
     )
 }
